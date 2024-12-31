@@ -1,0 +1,40 @@
+#picture-container{
+   border:1px solid black;
+   border-radius:15px;
+   margin: 0 auto;
+   width:300px;
+   height:300px;
+}
+
+#page-title{
+   text-align:center;
+}
+
+#image{
+   width:100%;
+   border-radius: 15px;
+   /* visibility:hidden; */
+}
+
+#css-picture{
+   background-image: url(../images/dynatrace\ associate.jpg);
+   width:300px;
+   height: 400px;
+   margin: 0 auto;
+}
+
+#hovers{
+width:380px;
+height:390px;
+border: 2px solid black;
+margin: 0 auto;
+background-image: url(../images/dynatrace\ associate.jpg);
+opacity: 0.5;
+padding: 2px 1px 0px 0% ;
+background-size: 100%;
+}
+
+#hovers:hover{
+   opacity:1;
+}
+
